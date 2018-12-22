@@ -56,12 +56,156 @@
 			children = (
 				470571DD21CE7175000D62C4 /* AppDelegate.swift */,
 				470571DF21CE7175000D62C4 /* ViewController.swift */,
+				470571FC21CE8056000D62C4 /* Classes */,
 				470571E121CE7175000D62C4 /* Main.storyboard */,
 				470571E421CE7176000D62C4 /* Assets.xcassets */,
 				470571E621CE7176000D62C4 /* LaunchScreen.storyboard */,
 				470571E921CE7176000D62C4 /* Info.plist */,
 			);
 			path = DYZB;
+			sourceTree = "<group>";
+		};
+		470571FC21CE8056000D62C4 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				470571FD21CE8056000D62C4 /* Live直播 */,
+				4705720121CE8056000D62C4 /* Follow关注 */,
+				4705720521CE8056000D62C4 /* Home首页 */,
+				4705720921CE8056000D62C4 /* Me我的 */,
+				4705720D21CE8056000D62C4 /* Main */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		470571FD21CE8056000D62C4 /* Live直播 */ = {
+			isa = PBXGroup;
+			children = (
+				470571FE21CE8056000D62C4 /* Model */,
+				470571FF21CE8056000D62C4 /* View */,
+				4705720021CE8056000D62C4 /* ViewController */,
+			);
+			path = "Live直播";
+			sourceTree = "<group>";
+		};
+		470571FE21CE8056000D62C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		470571FF21CE8056000D62C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4705720021CE8056000D62C4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4705720121CE8056000D62C4 /* Follow关注 */ = {
+			isa = PBXGroup;
+			children = (
+				4705720221CE8056000D62C4 /* Model */,
+				4705720321CE8056000D62C4 /* View */,
+				4705720421CE8056000D62C4 /* ViewController */,
+			);
+			path = "Follow关注";
+			sourceTree = "<group>";
+		};
+		4705720221CE8056000D62C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4705720321CE8056000D62C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4705720421CE8056000D62C4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4705720521CE8056000D62C4 /* Home首页 */ = {
+			isa = PBXGroup;
+			children = (
+				4705720621CE8056000D62C4 /* Model */,
+				4705720721CE8056000D62C4 /* View */,
+				4705720821CE8056000D62C4 /* ViewController */,
+			);
+			path = "Home首页";
+			sourceTree = "<group>";
+		};
+		4705720621CE8056000D62C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4705720721CE8056000D62C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4705720821CE8056000D62C4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4705720921CE8056000D62C4 /* Me我的 */ = {
+			isa = PBXGroup;
+			children = (
+				4705720A21CE8056000D62C4 /* Model */,
+				4705720B21CE8056000D62C4 /* View */,
+				4705720C21CE8056000D62C4 /* ViewController */,
+			);
+			path = "Me我的";
+			sourceTree = "<group>";
+		};
+		4705720A21CE8056000D62C4 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		4705720B21CE8056000D62C4 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		4705720C21CE8056000D62C4 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		4705720D21CE8056000D62C4 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Main;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -90,6 +234,7 @@
 		470571D221CE7175000D62C4 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = LJ;
 				LastSwiftUpdateCheck = 1000;
 				LastUpgradeCheck = 1000;
 				ORGANIZATIONNAME = CLJ;
