@@ -18,6 +18,8 @@
 		47EFEF8C21CE9378006BB3FE /* LJTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EFEF8B21CE9378006BB3FE /* LJTabBarViewController.swift */; };
 		47EFEF8E21CE9809006BB3FE /* LJHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EFEF8D21CE9809006BB3FE /* LJHomeViewController.swift */; };
 		47EFEF9221CEA125006BB3FE /* UIBarButtonItem_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EFEF9121CEA125006BB3FE /* UIBarButtonItem_Extension.swift */; };
+		47EFEF9421CEA809006BB3FE /* LJPageTitleView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EFEF9321CEA809006BB3FE /* LJPageTitleView.swift */; };
+		47EFEF9621CEAAD0006BB3FE /* commont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EFEF9521CEAAD0006BB3FE /* commont.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -34,6 +36,8 @@
 		47EFEF8B21CE9378006BB3FE /* LJTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJTabBarViewController.swift; sourceTree = "<group>"; };
 		47EFEF8D21CE9809006BB3FE /* LJHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJHomeViewController.swift; sourceTree = "<group>"; };
 		47EFEF9121CEA125006BB3FE /* UIBarButtonItem_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_Extension.swift; sourceTree = "<group>"; };
+		47EFEF9321CEA809006BB3FE /* LJPageTitleView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJPageTitleView.swift; sourceTree = "<group>"; };
+		47EFEF9521CEAAD0006BB3FE /* commont.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = commont.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -172,6 +176,7 @@
 		4705720721CE8056000D62C4 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				47EFEF9321CEA809006BB3FE /* LJPageTitleView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -230,6 +235,7 @@
 			isa = PBXGroup;
 			children = (
 				47EFEF9021CEA0A0006BB3FE /* Extensions */,
+				47EFEF9521CEAAD0006BB3FE /* commont.swift */,
 			);
 			path = Tools;
 			sourceTree = "<group>";
@@ -318,10 +324,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47EFEF9421CEA809006BB3FE /* LJPageTitleView.swift in Sources */,
 				47EFEF9221CEA125006BB3FE /* UIBarButtonItem_Extension.swift in Sources */,
 				47EFEF8C21CE9378006BB3FE /* LJTabBarViewController.swift in Sources */,
 				470571DE21CE7175000D62C4 /* AppDelegate.swift in Sources */,
 				47EFEF8E21CE9809006BB3FE /* LJHomeViewController.swift in Sources */,
+				47EFEF9621CEAAD0006BB3FE /* commont.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
