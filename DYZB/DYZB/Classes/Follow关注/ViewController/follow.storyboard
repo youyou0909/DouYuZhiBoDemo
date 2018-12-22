@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14313.18" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="mjF-G6-F4t">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14283.14"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="pTr-hx-9dZ">
+            <objects>
+                <viewController id="SX7-d5-QUL" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Kuq-aj-J8M">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="Z9E-bL-qWw"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="6AQ-2L-phm"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="fTL-bv-Aom" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1081" y="-282"/>
+        </scene>
+        <!--关注-->
+        <scene sceneID="TY3-9n-7dV">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="mjF-G6-F4t" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="关注" image="tabBar_follow_icon" selectedImage="tabBar_follow_icon_click" id="LsH-hi-iDi"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="Wf8-rX-oEI">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="SX7-d5-QUL" kind="relationship" relationship="rootViewController" id="0Ul-4P-MXr"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="uAL-IS-1mg" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="142" y="-282"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="tabBar_follow_icon" width="23" height="23"/>
+        <image name="tabBar_follow_icon_click" width="23" height="23"/>
+    </resources>
+</document>
