@@ -16,6 +16,8 @@
 		47EFEF8721CE92BC006BB3FE /* follow.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EFEF8621CE92BC006BB3FE /* follow.storyboard */; };
 		47EFEF8A21CE92DA006BB3FE /* me.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 47EFEF8821CE92DA006BB3FE /* me.storyboard */; };
 		47EFEF8C21CE9378006BB3FE /* LJTabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EFEF8B21CE9378006BB3FE /* LJTabBarViewController.swift */; };
+		47EFEF8E21CE9809006BB3FE /* LJHomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EFEF8D21CE9809006BB3FE /* LJHomeViewController.swift */; };
+		47EFEF9221CEA125006BB3FE /* UIBarButtonItem_Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 47EFEF9121CEA125006BB3FE /* UIBarButtonItem_Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -30,6 +32,8 @@
 		47EFEF8621CE92BC006BB3FE /* follow.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = follow.storyboard; sourceTree = "<group>"; };
 		47EFEF8921CE92DA006BB3FE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = DYZB/Classes/Base.lproj/me.storyboard; sourceTree = "<group>"; };
 		47EFEF8B21CE9378006BB3FE /* LJTabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJTabBarViewController.swift; sourceTree = "<group>"; };
+		47EFEF8D21CE9809006BB3FE /* LJHomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LJHomeViewController.swift; sourceTree = "<group>"; };
+		47EFEF9121CEA125006BB3FE /* UIBarButtonItem_Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIBarButtonItem_Extension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -74,11 +78,12 @@
 		470571FC21CE8056000D62C4 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				4705720D21CE8056000D62C4 /* Main */,
 				4705720521CE8056000D62C4 /* Home首页 */,
 				470571FD21CE8056000D62C4 /* Live直播 */,
 				4705720121CE8056000D62C4 /* Follow关注 */,
 				4705720921CE8056000D62C4 /* Me我的 */,
+				4705720D21CE8056000D62C4 /* Main */,
+				47EFEF8F21CEA0A0006BB3FE /* Tools */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -175,6 +180,7 @@
 			isa = PBXGroup;
 			children = (
 				47EFEF8221CE9248006BB3FE /* home.storyboard */,
+				47EFEF8D21CE9809006BB3FE /* LJHomeViewController.swift */,
 			);
 			path = ViewController;
 			sourceTree = "<group>";
@@ -218,6 +224,22 @@
 				47EFEF8B21CE9378006BB3FE /* LJTabBarViewController.swift */,
 			);
 			path = Main;
+			sourceTree = "<group>";
+		};
+		47EFEF8F21CEA0A0006BB3FE /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+				47EFEF9021CEA0A0006BB3FE /* Extensions */,
+			);
+			path = Tools;
+			sourceTree = "<group>";
+		};
+		47EFEF9021CEA0A0006BB3FE /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				47EFEF9121CEA125006BB3FE /* UIBarButtonItem_Extension.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -296,8 +318,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				47EFEF9221CEA125006BB3FE /* UIBarButtonItem_Extension.swift in Sources */,
 				47EFEF8C21CE9378006BB3FE /* LJTabBarViewController.swift in Sources */,
 				470571DE21CE7175000D62C4 /* AppDelegate.swift in Sources */,
+				47EFEF8E21CE9809006BB3FE /* LJHomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -455,7 +479,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YW36BHDY3C;
 				INFOPLIST_FILE = DYZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -463,7 +487,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yywx.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -475,7 +499,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = YW36BHDY3C;
 				INFOPLIST_FILE = DYZB/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -483,7 +507,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.yywx.DYZB;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
